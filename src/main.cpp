@@ -1,4 +1,5 @@
 #include <SFML/Graphics.hpp>
+#include "particle.h"
 
 int main()
 {
@@ -18,4 +19,6 @@ int main()
         window.draw(shape);
         window.display();
     }
+
+    particle particle1();
 }
